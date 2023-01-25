@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 import requests_async as request
 import time
 import openai
-from config import config
 
 load_dotenv()
 
