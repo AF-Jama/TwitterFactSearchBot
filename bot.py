@@ -142,7 +142,7 @@ class Listener(tweepy.StreamingClient):
         self.run()
 
     def on_disconnect(self):
-        self.disconnect()
+        self.run()
     
 
     def run(self):
